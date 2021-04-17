@@ -56,3 +56,6 @@ $(document).ready(function() {
         jQuery(this).children('.accordion-icon').toggleClass( 'is-open' );
       });
 });
+
+// drawer
+$('.drawer').drawer()
