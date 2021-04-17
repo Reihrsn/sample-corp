@@ -58,4 +58,6 @@ $(document).ready(function() {
 });
 
 // drawer
-$('.drawer').drawer()
+$(document).ready(function() {
+    $('.drawer').drawer()
+});
