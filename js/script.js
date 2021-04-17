@@ -14,6 +14,9 @@ $(document).ready(function () {
         }, 500);
         return false;
     });
+
+        // drawer
+        $('.drawer').drawer()
 });
 
 
@@ -57,7 +60,4 @@ $(document).ready(function() {
       });
 });
 
-// drawer
-$(document).ready(function() {
-    $('.drawer').drawer()
-});
+
